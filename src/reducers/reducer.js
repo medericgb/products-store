@@ -20,7 +20,7 @@ const reducer = (state = initialState, action) => {
 // We can combine multiple reducers into one.
 
 // import { combineReducers } from 'redux';
-// const rootReducers({
+// const rootReducers = combineReducers({
 //   aReducer,
 //   anotherReducer,
 //   someOtherReducer
